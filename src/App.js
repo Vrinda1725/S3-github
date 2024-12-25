@@ -10,7 +10,7 @@ class App extends Component {
     console.log("Host URL"+process.env.PUBLIC_URL);
     return (
 
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={"My Base from branch B"}>
         <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
